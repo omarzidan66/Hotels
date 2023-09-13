@@ -1,0 +1,138 @@
+body{
+  margin:0px;
+  background-color: #efefe8;
+}
+header{
+  color: white;
+  background-color:#9f6113;
+  width:100%;
+  height: 40px;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  margin: 0px ;
+  padding-left:10px;
+}
+.style-all{
+  display:grid;
+  place-content: center;
+}
+.style-all div label{
+  width: 120px;
+  display:inline-flex;
+  font-size: 15px;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.accomodation #single{
+width:140px;
+height: 25px;
+padding-left: 10px;
+border: 1px solid #ababab;
+border-radius: 2px;
+color: #5a5a5a;
+}
+.Name #mr
+,.Guests #years18{
+  display: inline-block;
+  padding:0px 0px 0px 5px;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  height: 25px;
+  background-color: white;
+  width: 158px;
+}
+.Guests #years18{
+  width: 151px;
+}
+
+.Name #name1, #name2, 
+.Guests #years2-17, #years2{
+  border-top: 0px solid;
+  padding:0px 0px 0px 10px;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  height: 25px;
+  background-color: white;
+  width: 180px;
+}
+.Contact #email, .Phone #phone{
+  border-top: 0px solid;
+  padding:0px 0px 0px 10px;
+  margin-top: 15px;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  height: 25px;
+  background-color: white;
+  width: 539px;
+}
+.Checkin-out #checkin, #checkout{
+  border-top: 0px solid;
+  padding:0px 0px 0px 10px;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  height: 25px;
+  background-color: white;
+  width: 180px;
+}
+.equipment #travel-trailer{
+  border-top: 0px solid;
+  padding:0px 0px 0px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  height: 25px;
+  background-color: white;
+  width: 193px;
+}
+.required-service #Required-service{
+  border-top: 0px solid;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 15px;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  height: 70px;
+  background-color: white;
+  width: 66px;
+}
+.required-service label{
+position:relative;
+top:-60px;
+}
+.comments #Comments{
+  border-top: 0px solid;
+  padding: 0px 0px 0px 10px;
+  margin: 15px 0px 15px 0px;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  height: 88px;
+  background-color: white;
+  width: 390px;
+}
+.submit-clear #Submit, #Clear{
+  border-top: 0px solid;
+  padding: 0px 0px 0px 2px;
+  margin-bottom: 15px;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  height: 25px;
+  background-color: #894c00;
+  width: 166px;
+}
+.submit-clear #Submit{
+position: relative;
+left: 144px;
+color: white;
+width: 166px;
+height: 40px;
+border-radius: 6px;
+}
+.submit-clear #Clear{
+  position: relative;
+  left: 436px;
+  color: white;
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+}
